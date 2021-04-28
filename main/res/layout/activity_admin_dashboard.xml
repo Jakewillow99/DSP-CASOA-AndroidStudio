@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminDashboard"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+
+    <Button
+        android:id="@+id/admin_placeOrder"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="50dp"
+        android:text="@string/place_new_order"/>
+
+    <Button
+        android:id="@+id/admin_viewCurrent"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="50dp"
+        android:text="@string/view_current_orders"/>
+
+    <Button
+        android:id="@+id/admin_viewComplete"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="50dp"
+        android:text="@string/view_complete_orders"/>
+
+    <Button
+        android:id="@+id/admin_editStock"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="50dp"
+        android:text="@string/edit_stock"/>
+
+    <Button
+        android:id="@+id/admin_manageStaff"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="50dp"
+        android:text="@string/manage_staff_accounts" />
+
+    <Button
+        android:id="@+id/admin_editWaitTime"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="50dp"
+        android:text="@string/edit_wait_time"/>
+
+
+</LinearLayout>

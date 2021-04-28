@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">ResturantApp</string>
+    <string name="Username">Username</string>
+    <string name="Name">Name</string>
+    <string name="Password">Password</string>
+    <string name="Register">Register</string>
+    <string name="gotAccount">Already Got An Account?</string>
+    <string name="login">Login</string>
+    <string name="re_enter_password">Re Enter Password</string>
+    <string name="not_got_an_account">Not Got an Account?</string>
+    <string name="place_new_order">Place New Order</string>
+    <string name="view_current_orders">View Current Orders</string>
+    <string name="view_complete_orders">View Complete Orders</string>
+    <string name="edit_stock">Edit Menu</string>
+    <string name="manage_staff_accounts">Manage Staff Accounts</string>
+    <string name="edit_wait_time">Edit Wait Time</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="email">Email</string>
+    <string name="name">Name</string>
+
+    <string-array name="menu_selection">
+        <item>Starter</item>
+        <item>Pasta and Salads</item>
+        <item>Grill</item>
+        <item>Deserts</item>
+    </string-array>
+
+    <string-array name="role_selection">
+        <item>ADMIN</item>
+        <item>KITCHEN</item>
+        <item>WAITING</item>
+    </string-array>
+    <string name="title_activity_register">Register</string>
+
+</resources>

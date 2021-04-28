@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/head"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/EDM_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="X" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/head"
+        android:layout_centerVertical="true"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/EDM_itemName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="itemName"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/EDM_itemDesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="itemDesc"
+            android:textSize="24sp" />
+
+        <Spinner
+            android:id="@+id/EDM_selection"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:spinnerMode="dropdown"
+            android:entries="@array/menu_selection"
+            />
+
+        <EditText
+            android:id="@+id/EDM_itemPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="itemPrice"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/EDM_update"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Update Item"/>
+
+        <Button
+            android:id="@+id/EDM_delete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delete Item"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
